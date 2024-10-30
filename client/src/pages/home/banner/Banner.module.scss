@@ -1,0 +1,52 @@
+.banner {
+    .swiper1, .swiper2 {
+        min-height: 80vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: var(--font-poppins);
+        background-size: cover;
+        background-position: center;
+
+        .slider_text {
+            margin-top: 30px;
+
+            p {
+                color: var(--color-gray);
+                font-weight: 700;
+                letter-spacing: 1px;
+            }
+            
+            h1 {
+                color: black;
+                line-height: 70px;
+                font-size: 50px;
+                font-weight: 700;
+                letter-spacing: 1px;
+            }
+            
+            div {
+                margin-top: 30px;
+                
+                a {
+                    border: none;
+                    text-decoration: none;
+                    background-color: purple; /* Change to purple */
+                    padding: 0.5rem 1rem;
+                    color: #fff;
+                    font-weight: 500;
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+
+    .swiper1 {
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwEs7Y8vnPCywm_ljFN1xYZQj3gnCTV89amg&s");
+    }
+
+    .swiper2 {
+        background-image: url("https://media.istockphoto.com/id/2151694655/photo/fresh-pastries-with-berries-a-variety-of-fresh-pastries-in-the-bakery-window-almond-croissant.jpg?s=612x612&w=0&k=20&c=nX6gGzyH42SuveZ2OftHFXmtJ2d1JAOqwwX5IY1znqw=");
+        background-repeat: no-repeat;
+    }
+}
